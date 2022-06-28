@@ -10,6 +10,9 @@ int main(void){
 	 // 
 	Sculptor caveiraOP(60,60,60);
 	
+
+	//esculpindo objeto:
+
 	//osso 01 parte de cima:
 	caveiraOP.putBox(18,20,36,38,30,31);
 	caveiraOP.putBox(17,19,37,39,30,31);
@@ -18,7 +21,6 @@ int main(void){
 	caveiraOP.putBox(14,16,40,42,30,31);
 	caveiraOP.putBox(15,17,41,43,30,31);
 	caveiraOP.putBox(13,15,39,41,30,31);
-	
 	//osso 01 parte de baixo:
 	caveiraOP.setColor(1,1,1,1);
 	caveiraOP.putBox(39,41,17,19,30,31);
@@ -198,7 +200,7 @@ int main(void){
 	caveiraOP.putVoxel(32,19,34);
 	caveiraOP.putVoxel(32,18,34);
 	
-	caveiraOP.putBox(5,55,5,55,8,10);
+	caveiraOP.putBox(5,55,5,55,8,10); //'bandeira 3d'
 	
     caveiraOP.writeOFF((char*)"caveiraOnePiece.off");
 
