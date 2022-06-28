@@ -8,7 +8,6 @@ private:
     Voxel ***v; //Matriz3D
     int nx,ny,nz; //Dimensões
     float r,g,b,a; //Propriedades do Voxel
-    float fix;
 
 public:
 	/*----------------------------------------------------------------*/
