@@ -1,0 +1,142 @@
+dim 60 60 60
+putbox 18 20 36 38 30 31 1 1 1 1
+putbox 17 19 37 39 30 31 1 1 1 1
+putbox 16 18 38 40 30 31 1 1 1 1
+putbox 15 17 39 41 30 31 1 1 1 1
+putbox 14 16 40 42 30 31 1 1 1 1
+putbox 15 17 41 43 30 31 1 1 1 1
+putbox 13 15 39 41 30 31 1 1 1 1
+putbox 39 41 17 19 30 31 1 1 1 1
+putbox 37 39 15 17 30 31 1 1 1 1
+putbox 38 40 16 18 30 31 1 1 1 1
+putbox 37 39 17 19 30 31 1 1 1 1
+putbox 36 38 18 20 30 31 1 1 1 1
+putbox 35 37 19 21 30 31 1 1 1 1
+putbox 34 36 20 22 30 31 1 1 1 1
+putbox 44 46 39 41 30 31 1 1 1 1
+putbox 42 44 41 43 30 31 1 1 1 1
+putbox 43 45 40 42 30 31 1 1 1 1
+putbox 42 44 39 41 30 31 1 1 1 1
+putbox 41 43 38 40 30 31 1 1 1 1
+putbox 40 42 37 39 30 31 1 1 1 1
+putbox 39 41 36 38 30 31 1 1 1 1
+putbox 23 25 20 22 30 31 1 1 1 1
+putbox 22 24 19 21 30 31 1 1 1 1
+putbox 21 23 18 20 30 31 1 1 1 1
+putbox 20 22 17 19 30 31 1 1 1 1
+putbox 19 21 16 18 30 31 1 1 1 1
+putbox 20 22 15 17 30 31 1 1 1 1
+putbox 18 20 17 19 30 31 1 1 1 1
+putellipsoid 29 25 30 6 10 6 1 1 1 1
+putsphere 29 30 30 10  1 1 1 1
+putsphere 29 34 30 8  1 0.8 0 1 
+putellipsoid 29 35 30 20 1 20 1 0.8 0 1
+putellipsoid 29 36 30 10 1 10 1 0 0 1
+putellipsoid 29 37 30 10 1 8 1 0 0 1
+cutbox 23 27 28 33 37 40 
+putbox 23 27 28 33 37 40 0 0 0 1
+cutvoxel 27 30 39
+putvoxel 27 30 39 0 0 0 1
+cutvoxel 27 29 39
+putvoxel 27 29 39 0 0 0 1
+cutvoxel 27 31 39
+putvoxel 27 31 39 0 0 0 1
+putvoxel 22 29 39 0 0 0 1
+putvoxel 22 30 39 0 0 0 1
+putvoxel 22 31 39 0 0 0 1
+putvoxel 25 27 39 0 0 0 1
+putvoxel 25 33 39 0 0 0 1
+putvoxel 24 27 39 0 0 0 1
+putvoxel 24 33 39 0 0 0 1
+cutbox 32 36 28 33 37 40 
+putbox 32 36 28 33 37 40  0 0 0 1
+cutvoxel 36 30 39
+putvoxel 36 30 39 0 0 0 1
+cutvoxel 36 29 39
+putvoxel 36 29 39 0 0 0 1
+cutvoxel 36 31 39
+putvoxel 36 31 39 0 0 0 1
+putvoxel 31 29 39 0 0 0 1
+putvoxel 31 30 39 0 0 0 1
+putvoxel 31 31 39 0 0 0 1
+putvoxel 34 27 39 0 0 0 1
+putvoxel 34 33 39 0 0 0 1
+putvoxel 33 27 39 0 0 0 1
+putvoxel 33 33 39 0 0 0 1
+cutvoxel 28 26 39
+cutvoxel 29 26 39
+cutvoxel 30 26 39
+putvoxel 28 26 39 0 0 0 1
+putvoxel 29 26 39 0 0 0 1
+putvoxel 30 26 39 0 0 0 1
+putvoxel 28 25 39 0 0 0 1
+putvoxel 29 25 39 0 0 0 1
+putvoxel 30 25 39 0 0 0 1
+putvoxel 27 25 39 0 0 0 1
+putvoxel 31 25 39 0 0 0 1
+putvoxel 28 24 39 0 0 0 1
+putvoxel 29 24 39 0 0 0 1
+putvoxel 30 24 39 0 0 0 1
+cutvoxel 29 22 34
+cutvoxel 29 21 34
+cutvoxel 29 20 34
+cutvoxel 29 22 35
+cutvoxel 29 21 35
+cutvoxel 29 20 35
+cutvoxel 29 19 34
+cutvoxel 29 18 34
+putvoxel 29 22 34 0 0 0 1
+putvoxel 29 21 34 0 0 0 1
+putvoxel 29 20 34 0 0 0 1
+putvoxel 29 19 34 0 0 0 1
+putvoxel 29 18 34 0 0 0 1
+cutvoxel 28 20 34
+cutvoxel 28 20 35
+cutvoxel 27 20 35
+cutvoxel 30 20 34
+cutvoxel 30 20 35
+cutvoxel 31 20 35
+cutvoxel 28 20 34
+cutvoxel 28 20 35
+cutvoxel 27 20 35
+putvoxel 30 20 34 0 0 0 1  
+putvoxel 31 20 34 0 0 0 1 
+putvoxel 28 20 34 0 0 0 1 
+putvoxel 27 20 34 0 0 0 1 
+cutvoxel 26 21 34
+putvoxel 26 21 34 0 0 0 1
+putvoxel 25 21 34 0 0 0 1
+cutvoxel 27 22 35
+putvoxel 27 22 35 0 0 0 1
+cutvoxel 28 22 35
+putvoxel 28 22 35 0 0 0 1
+cutvoxel 27 18 34
+putvoxel 27 18 34 0 0 0 1
+cutvoxel 28 18 34
+putvoxel 28 18 34 0 0 0 1
+cutvoxel 32 21 34
+putvoxel 32 21 34 0 0 0 1
+putvoxel 33 21 34 0 0 0 1
+cutvoxel 30 22 35
+putvoxel 30 22 35 0 0 0 1
+cutvoxel 31 22 35
+putvoxel 31 22 35 0 0 0 1
+cutvoxel 30 18 34
+putvoxel 30 18 34 0 0 0 1
+cutvoxel 31 18 34
+putvoxel 31 18 34 0 0 0 1
+cutvoxel 26 22 35
+cutvoxel 26 22 34
+putvoxel 26 22 34 0 0 0 1
+cutvoxel 26 20 34
+putvoxel 26 20 34 0 0 0 1
+putvoxel 26 19 34 0 0 0 1
+putvoxel 26 18 34 0 0 0 1
+cutvoxel 32 22 35
+cutvoxel 32 22 34
+putvoxel 32 22 34 0 0 0 1
+cutvoxel 32 20 34
+putvoxel 32 20 34 0 0 0 1
+putvoxel 32 19 34 0 0 0 1
+putvoxel 32 18 34 0 0 0 1
+putbox 10 50 10 50 8 10  0 0 0 1
