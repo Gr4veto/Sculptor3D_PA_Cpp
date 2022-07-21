@@ -1,20 +1,26 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "voxel.h"
 #include "sculptor.h"
 
-using namespace std;
-
 int main(void){
-	 // 
-	Sculptor caveiraOP(60,60,60);
+	Sculptor exemplo(60,60,60);
+  Sculptor caveiraOP(60,60,60);
 	
+	exemplo.putBox(15,20,36,40,30,36);
+  exemplo.cutBox(17,19,38,40,30,32);
+  
+	exemplo.setColor(1,1,1,1);
+  exemplo.putEllipsoid(5,25,30,6,10,6);
+  exemplo.cutEllipsoid(5,30,30,6,10,6);
+  
+  exemplo.setColor(1,0,1, 0.5);
+  exemplo.putSphere(29,30,30,10); 
+  exemplo.cutSphere(29,35,30,10);
+ 	
+  exemplo.writeOFF((char*)"exemplo.off");
 
-	//esculpindo objeto:
-
-	//osso 01 parte de cima:
-	caveiraOP.putBox(18,20,36,38,30,31);
+  caveiraOP.putBox(18,20,36,38,30,31);
 	caveiraOP.putBox(17,19,37,39,30,31);
 	caveiraOP.putBox(16,18,38,40,30,31);
 	caveiraOP.putBox(15,17,39,41,30,31);
@@ -52,20 +58,20 @@ int main(void){
 	
 	//maxilar:
 	caveiraOP.setColor(1,1,1,1);
-    caveiraOP.putEllipsoid(29,25,30,6,10,6);
+  caveiraOP.putEllipsoid(29,25,30,6,10,6);
     
-    //cranio:
-    caveiraOP.setColor(1,1,1,1);
-    caveiraOP.putSphere(29,30,30,10); 
+  //cranio:
+  caveiraOP.setColor(1,1,1,1);
+  caveiraOP.putSphere(29,30,30,10); 
     
-    //Chapeu
-    caveiraOP.setColor(1,0.8,0,1);
-    caveiraOP.putSphere(29,34,30,8); 
+  //Chapeu
+  caveiraOP.setColor(1,0.8,0,1);
+  caveiraOP.putSphere(29,34,30,8); 
   
-  	//aba do chapeu
+  //aba do chapeu
  	caveiraOP.putEllipsoid(29,35,30,20,1,20);
  	caveiraOP.setColor(1,0,0,1);
-    caveiraOP.putEllipsoid(29,36,30,10,1,10);
+  caveiraOP.putEllipsoid(29,36,30,10,1,10);
 	caveiraOP.putEllipsoid(29,37,30,10,1,8);
 	
 	//olho esquerdo:
@@ -202,6 +208,7 @@ int main(void){
 	
 	caveiraOP.putBox(5,55,5,55,8,10); //'bandeira 3d'
 	
-    caveiraOP.writeOFF((char*)"caveiraOnePiece.off");
+  caveiraOP.writeOFF((char*)"caveiraOnePiece.off");
+
 
 }
